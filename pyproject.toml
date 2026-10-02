@@ -18,6 +18,7 @@ module-name = "toolkit"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+addopts = ["--import-mode=importlib"]
 markers = ["e2e: hits external services"]
 
 [tool.ruff.lint]
