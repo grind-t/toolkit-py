@@ -1,6 +1,6 @@
 [project]
 name = "grind-t-toolkit"
-version = "0.1.0"
+version = "0.2.0"
 description = "Natural problem solver's toolkit"
 readme = "README.md"
 authors = [
