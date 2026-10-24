@@ -1,9 +1,4 @@
-from typing import TypeVar
-
-T = TypeVar("T")
-
-
-def ensure(value: T | None, message: str = "Expected value to be truthy") -> T:
+def ensure[T](value: T | None, message: str = "Expected value to be truthy") -> T:
     """Return ``value`` if it is truthy, otherwise raise ``ValueError``.
 
     Unlike ``assert``, the check is not stripped when Python runs with ``-O``.
